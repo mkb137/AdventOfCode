@@ -1,0 +1,10 @@
+source https://www.nuget.org/api/v2
+
+nuget FSharp.Core
+
+# logging
+nuget Microsoft.Extensions.Configuration.Json
+nuget Serilog
+nuget Serilog.Sinks.Console
+nuget Serilog.Enrichers.Thread
+nuget Serilog.Settings.Configuration
